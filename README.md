@@ -1,8 +1,8 @@
-# Mary Programming Language (GLaDOS)  
+# Glados Programming Language  
 <div align="center">
   <img src="https://static.wikia.nocookie.net/epicpixelbattles/images/5/5f/400px-GLaDOS_P2.png/revision/latest?cb=20191127181958">
 
-![Static Badge](https://img.shields.io/badge/Mary-programming_language-blue)
+![Static Badge](https://img.shields.io/badge/Glados-programming_language-blue)
 
 </div>
 
@@ -19,13 +19,13 @@ After installing the necessary dependencies, in order to build the project, use 
 - Clone the project:
 
 ```sh
-git clone git@github.com:anpawo/mary.git
+git clone git@github.com:anpawo/glados.git
 ```
 
 - Go to the project directory:
 
 ```sh
-cd mary
+cd glados
 ```
 
 - Build using Makefile:
@@ -36,8 +36,8 @@ make
 
 ## How to Use? 🛠️
 
-- First, you need to write a file according to the `Mary` syntax.
-- You should consider installing the [vscode-extension](https://github.com/anpawo/Mary/tree/main/vscode-extension) for better readability.
+- First, you need to write a file according to the `Glados` syntax.
+- You should consider installing the [vscode-extension](https://github.com/anpawo/glados/tree/main/vscode-extension) for better readability.
 - Once your file is done, you can run it with `./glados <filename>`
 
 For starters, here's a little file with a guess the number game.
@@ -120,7 +120,7 @@ struct person {
 import list
 // provides the function map
 // and the operator `..` (range)
-// which are both coded in the mary language.
+// which are both coded in the Glados language.
 // check out the stdlib directory for more.
 
 function main() -> void {
@@ -136,7 +136,7 @@ function main() -> void {
 
 You can do great things with this much!
 
-For more information about the language, check out the [Mary User Manual](https://github.com/anpawo/Mary/blob/main/doc/User_Manual.md).
+For more information about the language, check out the [Glados User Manual](https://github.com/anpawo/glados/blob/main/doc/User_Manual.md).
 
 ## Our Team ❤️
 ### Developers

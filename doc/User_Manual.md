@@ -1,12 +1,12 @@
-# User Manual for Mary Programming Language
+# User Manual for Glados Programming Language
 
-Welcome to the user manual for the Mary programming language. This document will guide you through installing, running, and using GLaDOS effectively. Whether you're a beginner or an advanced user, this manual covers everything from syntax basics to advanced features.
+Welcome to the user manual for the Glados programming language. This document will guide you through installing, running, and using GLaDOS effectively. Whether you're a beginner or an advanced user, this manual covers everything from syntax basics to advanced features.
 
 ---
 
 ## Table of Contents
 
-- [User Manual for Mary Programming Language](#user-manual-for-mary-programming-language)
+- [User Manual for Glados Programming Language](#user-manual-for-glados-programming-language)
   - [Table of Contents](#table-of-contents)
   - [1. Getting Started](#1-getting-started)
     - [Installation](#installation)
@@ -196,7 +196,7 @@ Declare and initialize variables using the following syntax:
 
 ### Writing Functions
 
-In Mary, functions are defined using the `function` keyword, followed by the function name, parameters, return type, and body.
+In Glados, functions are defined using the `function` keyword, followed by the function name, parameters, return type, and body.
 
 **Syntax:**
 ```BNF
@@ -236,7 +236,7 @@ function main() -> int {
 
 ### Built-in Functions
 
-Built-in functions include in Mary:
+Built-in functions include in Glados:
 
 - **Arithmetic Operators**
 
@@ -362,9 +362,9 @@ Built-in functions include in Mary:
 
 ## 6. Custom Operators
 
-In Mary, we can define custom operators using `operator` keyword, where precedence refers to the priority order of the operator:
+In Glados, we can define custom operators using `operator` keyword, where precedence refers to the priority order of the operator:
 
-For example, in `Mary` the `+` operator has a precedence of 6 and the `*` operator has a precedence of 7. This means that the operation `1 + 2 * 3` is equivalent to ` 1 + (2 * 3)` because `*` will be executed before `+` as 7 is greater than 6.
+For example, in `Glados` the `+` operator has a precedence of 6 and the `*` operator has a precedence of 7. This means that the operation `1 + 2 * 3` is equivalent to ` 1 + (2 * 3)` because `*` will be executed before `+` as 7 is greater than 6.
 
 **Syntax:**
 
@@ -559,7 +559,7 @@ Explanation:
 
 ## 11. Import
 
-In Mary, we can import file or lib using `import` keyword:
+In Glados, we can import file or lib using `import` keyword:
 
 ```f#
 import math
@@ -578,7 +578,7 @@ function main() -> int {
 
 ## 12. Custom Data Structures
 
-In Mary, structures are defined using the struct keyword, where each structure possibly contains fields.
+In Glados, structures are defined using the struct keyword, where each structure possibly contains fields.
 
 It is also possible to define a structure with no fields by using 
 ```
@@ -610,7 +610,7 @@ function getname(p: struct person) -> str {
 
 ## 13. Constraint type
 
-In Mary, we can create our own custom types.
+In Glados, we can create our own custom types.
 
 **Syntax:**
 
